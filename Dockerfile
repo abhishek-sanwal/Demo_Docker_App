@@ -12,6 +12,7 @@ WORKDIR /docker-py-hello/src
 COPY requirements.txt /docker-py-hello/src
 COPY . /docker-py-hello/src
 
+## Installing Dependencies
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt \
 
