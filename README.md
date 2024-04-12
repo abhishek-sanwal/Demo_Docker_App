@@ -6,7 +6,7 @@ This app demonstrates the use of docker to containerize a python app
 Python, Docker Dekstop
 ```
 
-## Step 1 => Build Docker Image
+## Step 1 => Move to the directory where docker file is located and build Docker Image
 ```
 docker build -t py-docker-box:latest .
 ```
