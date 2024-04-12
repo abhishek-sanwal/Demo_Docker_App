@@ -1,16 +1,16 @@
 # Demo_Docker_App
 This app demonstrates the use of docker to containerize a python app
 
-## prerequisites
+## Pre-requisites 
 ```
 Python, Docker Dekstop
 ```
 
-## Build Docker Image
+## Step 1 => Build Docker Image
 ```
 docker build -t py-docker-box:latest .
 ```
-## Run Docker Container to get output
+## Step2 => Run Docker Container to get output
 
 ```
 docker run py-docker-box:latest
